@@ -1,0 +1,37 @@
+/* * {
+border: 2px solid red;
+} */
+html{
+    --header-colors: #C7E8F3;
+    --text-color: #41393E;
+    --background-color: #8E4162;
+    /* --name-this-var-anything: ; */
+    --section-color: #8E4162;
+}
+
+
+h1, h2 {
+    background-color: var(--section-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var( --text-color);
+    
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+#stack {
+    background-color: deeppink;
+}
+
+.list-of-software { 
+    list-style: lower-roman;
+}
+
+.our-software {
+    background-color: aqua;
+}
